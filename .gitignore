@@ -8,3 +8,15 @@
 .config/*/
 
 !.config/nvim/
+
+# mac-specific stuff
+!Library/
+Library/*
+Library/*/
+!Library/Preferences/
+Library/Preferences/*
+Library/Preferences/*/
+
+!Library/Preferences/com.googlecode.iterm2.plist
+
+**/.DS_Store
